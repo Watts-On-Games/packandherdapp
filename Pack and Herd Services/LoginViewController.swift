@@ -20,6 +20,12 @@ import UIKit
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //MARK: Actions
+    
+    @IBAction func LoginButton(_ sender: UIButton) {
+        print("Login button hit.")
+    }
 
 
 }
