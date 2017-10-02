@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70BA8AAB1F7DBD9000683E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA8AAA1F7DBD9000683E63 /* AppDelegate.swift */; };
+		70BA8AAD1F7DBD9000683E63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */; };
+		70BA8AB01F7DBD9000683E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AAE1F7DBD9000683E63 /* Main.storyboard */; };
+		70BA8AB21F7DBD9000683E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AB11F7DBD9000683E63 /* Assets.xcassets */; };
+		70BA8AB51F7DBD9000683E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AB31F7DBD9000683E63 /* LaunchScreen.storyboard */; };
+		70BA8AC01F7DBD9000683E63 /* Pack_and_Herd_ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA8ABF1F7DBD9000683E63 /* Pack_and_Herd_ServicesTests.swift */; };
+		70BA8AD71F7DCBF300683E63 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8ACB1F7DCBF300683E63 /* Roboto-Black.ttf */; };
+		70BA8AD81F7DCBF300683E63 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8ACC1F7DCBF300683E63 /* Roboto-BlackItalic.ttf */; };
+		70BA8AD91F7DCBF300683E63 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8ACD1F7DCBF300683E63 /* Roboto-Bold.ttf */; };
+		70BA8ADA1F7DCBF300683E63 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8ACE1F7DCBF300683E63 /* Roboto-BoldItalic.ttf */; };
+		70BA8ADB1F7DCBF300683E63 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8ACF1F7DCBF300683E63 /* Roboto-Italic.ttf */; };
+		70BA8ADC1F7DCBF300683E63 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD01F7DCBF300683E63 /* Roboto-Light.ttf */; };
+		70BA8ADD1F7DCBF300683E63 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD11F7DCBF300683E63 /* Roboto-LightItalic.ttf */; };
+		70BA8ADE1F7DCBF300683E63 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD21F7DCBF300683E63 /* Roboto-Medium.ttf */; };
+		70BA8ADF1F7DCBF300683E63 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD31F7DCBF300683E63 /* Roboto-MediumItalic.ttf */; };
+		70BA8AE01F7DCBF300683E63 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD41F7DCBF300683E63 /* Roboto-Regular.ttf */; };
+		70BA8AE11F7DCBF300683E63 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD51F7DCBF300683E63 /* Roboto-Thin.ttf */; };
+		70BA8AE21F7DCBF300683E63 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD61F7DCBF300683E63 /* Roboto-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70BA8ABC1F7DBD9000683E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70BA8A9F1F7DBD9000683E63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70BA8AA61F7DBD9000683E63;
+			remoteInfo = "Pack and Herd Services";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70BA8AA71F7DBD9000683E63 /* Pack and Herd Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pack and Herd Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BA8AAA1F7DBD9000683E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		70BA8AAF1F7DBD9000683E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70BA8AB11F7DBD9000683E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70BA8AB41F7DBD9000683E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70BA8AB61F7DBD9000683E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BA8ABB1F7DBD9000683E63 /* Pack and Herd ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pack and Herd ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BA8ABF1F7DBD9000683E63 /* Pack_and_Herd_ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pack_and_Herd_ServicesTests.swift; sourceTree = "<group>"; };
+		70BA8AC11F7DBD9000683E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BA8ACB1F7DCBF300683E63 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		70BA8ACC1F7DCBF300683E63 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		70BA8ACD1F7DCBF300683E63 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		70BA8ACE1F7DCBF300683E63 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		70BA8ACF1F7DCBF300683E63 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		70BA8AD01F7DCBF300683E63 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		70BA8AD11F7DCBF300683E63 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		70BA8AD21F7DCBF300683E63 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		70BA8AD31F7DCBF300683E63 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		70BA8AD41F7DCBF300683E63 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		70BA8AD51F7DCBF300683E63 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		70BA8AD61F7DCBF300683E63 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70BA8AA41F7DBD9000683E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BA8AB81F7DBD9000683E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70BA8A9E1F7DBD9000683E63 = {
+			isa = PBXGroup;
+			children = (
+				70BA8ACA1F7DCBD500683E63 /* Resources */,
+				70BA8AA91F7DBD9000683E63 /* Pack and Herd Services */,
+				70BA8ABE1F7DBD9000683E63 /* Pack and Herd ServicesTests */,
+				70BA8AA81F7DBD9000683E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70BA8AA81F7DBD9000683E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70BA8AA71F7DBD9000683E63 /* Pack and Herd Services.app */,
+				70BA8ABB1F7DBD9000683E63 /* Pack and Herd ServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70BA8AA91F7DBD9000683E63 /* Pack and Herd Services */ = {
+			isa = PBXGroup;
+			children = (
+				70BA8AAA1F7DBD9000683E63 /* AppDelegate.swift */,
+				70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */,
+				70BA8AAE1F7DBD9000683E63 /* Main.storyboard */,
+				70BA8AB11F7DBD9000683E63 /* Assets.xcassets */,
+				70BA8AB31F7DBD9000683E63 /* LaunchScreen.storyboard */,
+				70BA8AB61F7DBD9000683E63 /* Info.plist */,
+			);
+			path = "Pack and Herd Services";
+			sourceTree = "<group>";
+		};
+		70BA8ABE1F7DBD9000683E63 /* Pack and Herd ServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				70BA8ABF1F7DBD9000683E63 /* Pack_and_Herd_ServicesTests.swift */,
+				70BA8AC11F7DBD9000683E63 /* Info.plist */,
+			);
+			path = "Pack and Herd ServicesTests";
+			sourceTree = "<group>";
+		};
+		70BA8ACA1F7DCBD500683E63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70BA8ACB1F7DCBF300683E63 /* Roboto-Black.ttf */,
+				70BA8ACC1F7DCBF300683E63 /* Roboto-BlackItalic.ttf */,
+				70BA8ACD1F7DCBF300683E63 /* Roboto-Bold.ttf */,
+				70BA8ACE1F7DCBF300683E63 /* Roboto-BoldItalic.ttf */,
+				70BA8ACF1F7DCBF300683E63 /* Roboto-Italic.ttf */,
+				70BA8AD01F7DCBF300683E63 /* Roboto-Light.ttf */,
+				70BA8AD11F7DCBF300683E63 /* Roboto-LightItalic.ttf */,
+				70BA8AD21F7DCBF300683E63 /* Roboto-Medium.ttf */,
+				70BA8AD31F7DCBF300683E63 /* Roboto-MediumItalic.ttf */,
+				70BA8AD41F7DCBF300683E63 /* Roboto-Regular.ttf */,
+				70BA8AD51F7DCBF300683E63 /* Roboto-Thin.ttf */,
+				70BA8AD61F7DCBF300683E63 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "Pack and Herd Services";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70BA8AA61F7DBD9000683E63 /* Pack and Herd Services */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BA8AC41F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd Services" */;
+			buildPhases = (
+				70BA8AA31F7DBD9000683E63 /* Sources */,
+				70BA8AA41F7DBD9000683E63 /* Frameworks */,
+				70BA8AA51F7DBD9000683E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pack and Herd Services";
+			productName = "Pack and Herd Services";
+			productReference = 70BA8AA71F7DBD9000683E63 /* Pack and Herd Services.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70BA8ABA1F7DBD9000683E63 /* Pack and Herd ServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BA8AC71F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd ServicesTests" */;
+			buildPhases = (
+				70BA8AB71F7DBD9000683E63 /* Sources */,
+				70BA8AB81F7DBD9000683E63 /* Frameworks */,
+				70BA8AB91F7DBD9000683E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BA8ABD1F7DBD9000683E63 /* PBXTargetDependency */,
+			);
+			name = "Pack and Herd ServicesTests";
+			productName = "Pack and Herd ServicesTests";
+			productReference = 70BA8ABB1F7DBD9000683E63 /* Pack and Herd ServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70BA8A9F1F7DBD9000683E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Watts-On Games";
+				TargetAttributes = {
+					70BA8AA61F7DBD9000683E63 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q24XRD67E3;
+						ProvisioningStyle = Automatic;
+					};
+					70BA8ABA1F7DBD9000683E63 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q24XRD67E3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70BA8AA61F7DBD9000683E63;
+					};
+				};
+			};
+			buildConfigurationList = 70BA8AA21F7DBD9000683E63 /* Build configuration list for PBXProject "Pack and Herd Services" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70BA8A9E1F7DBD9000683E63;
+			productRefGroup = 70BA8AA81F7DBD9000683E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70BA8AA61F7DBD9000683E63 /* Pack and Herd Services */,
+				70BA8ABA1F7DBD9000683E63 /* Pack and Herd ServicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70BA8AA51F7DBD9000683E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BA8AE21F7DCBF300683E63 /* Roboto-ThinItalic.ttf in Resources */,
+				70BA8AE11F7DCBF300683E63 /* Roboto-Thin.ttf in Resources */,
+				70BA8AB51F7DBD9000683E63 /* LaunchScreen.storyboard in Resources */,
+				70BA8AB21F7DBD9000683E63 /* Assets.xcassets in Resources */,
+				70BA8ADD1F7DCBF300683E63 /* Roboto-LightItalic.ttf in Resources */,
+				70BA8AD91F7DCBF300683E63 /* Roboto-Bold.ttf in Resources */,
+				70BA8ADF1F7DCBF300683E63 /* Roboto-MediumItalic.ttf in Resources */,
+				70BA8AD81F7DCBF300683E63 /* Roboto-BlackItalic.ttf in Resources */,
+				70BA8AB01F7DBD9000683E63 /* Main.storyboard in Resources */,
+				70BA8ADB1F7DCBF300683E63 /* Roboto-Italic.ttf in Resources */,
+				70BA8ADA1F7DCBF300683E63 /* Roboto-BoldItalic.ttf in Resources */,
+				70BA8ADE1F7DCBF300683E63 /* Roboto-Medium.ttf in Resources */,
+				70BA8AE01F7DCBF300683E63 /* Roboto-Regular.ttf in Resources */,
+				70BA8AD71F7DCBF300683E63 /* Roboto-Black.ttf in Resources */,
+				70BA8ADC1F7DCBF300683E63 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BA8AB91F7DBD9000683E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70BA8AA31F7DBD9000683E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BA8AAD1F7DBD9000683E63 /* LoginViewController.swift in Sources */,
+				70BA8AAB1F7DBD9000683E63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BA8AB71F7DBD9000683E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BA8AC01F7DBD9000683E63 /* Pack_and_Herd_ServicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70BA8ABD1F7DBD9000683E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70BA8AA61F7DBD9000683E63 /* Pack and Herd Services */;
+			targetProxy = 70BA8ABC1F7DBD9000683E63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70BA8AAE1F7DBD9000683E63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BA8AAF1F7DBD9000683E63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70BA8AB31F7DBD9000683E63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BA8AB41F7DBD9000683E63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70BA8AC21F7DBD9000683E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70BA8AC31F7DBD9000683E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70BA8AC51F7DBD9000683E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q24XRD67E3;
+				INFOPLIST_FILE = "Pack and Herd Services/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.Pack-and-Herd-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70BA8AC61F7DBD9000683E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q24XRD67E3;
+				INFOPLIST_FILE = "Pack and Herd Services/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.Pack-and-Herd-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		70BA8AC81F7DBD9000683E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q24XRD67E3;
+				INFOPLIST_FILE = "Pack and Herd ServicesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.Pack-and-Herd-ServicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pack and Herd Services.app/Pack and Herd Services";
+			};
+			name = Debug;
+		};
+		70BA8AC91F7DBD9000683E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q24XRD67E3;
+				INFOPLIST_FILE = "Pack and Herd ServicesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.Pack-and-Herd-ServicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pack and Herd Services.app/Pack and Herd Services";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70BA8AA21F7DBD9000683E63 /* Build configuration list for PBXProject "Pack and Herd Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BA8AC21F7DBD9000683E63 /* Debug */,
+				70BA8AC31F7DBD9000683E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BA8AC41F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BA8AC51F7DBD9000683E63 /* Debug */,
+				70BA8AC61F7DBD9000683E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70BA8AC71F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd ServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BA8AC81F7DBD9000683E63 /* Debug */,
+				70BA8AC91F7DBD9000683E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70BA8A9F1F7DBD9000683E63 /* Project object */;
+}
