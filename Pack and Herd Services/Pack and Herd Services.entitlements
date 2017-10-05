@@ -4,5 +4,11 @@
 <dict>
 	<key>aps-environment</key>
 	<string>development</string>
+	<key>com.apple.developer.in-app-payments</key>
+	<array/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.watts-ongames.pack-and-herd</string>
+	</array>
 </dict>
 </plist>

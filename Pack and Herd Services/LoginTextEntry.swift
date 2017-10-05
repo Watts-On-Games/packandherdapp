@@ -8,14 +8,23 @@
 
 import UIKit
 
-class LoginTextEntry: UITextField {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+@IBDesignable class LoginTextEntry: UITextField {
+    
+    //MARK: Properties
+    let paddedInset: UIEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+    
+    //MARK: Overide Functions
+    override func textRect(forBounds bounds: CGRect) -> CGRect {
+        return UIEdgeInsetsInsetRect(bounds, paddedInset)
     }
-    */
+    
+    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+        return UIEdgeInsetsInsetRect(bounds, paddedInset)
+    }
+    
+    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+        return UIEdgeInsetsInsetRect(bounds, paddedInset)
+    }
+    
 
 }

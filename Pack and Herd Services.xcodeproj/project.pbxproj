@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B17F4AC055CA2B722BC6AC6 /* Pods_Pack_and_Herd_ServicesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F3C7DFC095CB9FB7E26D00 /* Pods_Pack_and_Herd_ServicesTests.framework */; };
+		704AB6E21F855C6400BF48AA /* LoginTextEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704AB6E11F855C6400BF48AA /* LoginTextEntry.swift */; };
+		70789BC51F83E21C00EAEC2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70789BC41F83E21C00EAEC2C /* GoogleService-Info.plist */; };
 		70BA8AAB1F7DBD9000683E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA8AAA1F7DBD9000683E63 /* AppDelegate.swift */; };
 		70BA8AAD1F7DBD9000683E63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */; };
 		70BA8AB01F7DBD9000683E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AAE1F7DBD9000683E63 /* Main.storyboard */; };
@@ -25,6 +28,7 @@
 		70BA8AE01F7DCBF300683E63 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD41F7DCBF300683E63 /* Roboto-Regular.ttf */; };
 		70BA8AE11F7DCBF300683E63 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD51F7DCBF300683E63 /* Roboto-Thin.ttf */; };
 		70BA8AE21F7DCBF300683E63 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BA8AD61F7DCBF300683E63 /* Roboto-ThinItalic.ttf */; };
+		A3D0DB42EA3B89762D60062B /* Pods_Pack_and_Herd_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7557257BB32DA1B11C158D /* Pods_Pack_and_Herd_Services.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A16D221040B7574E69BC8D8 /* Pods-Pack and Herd ServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pack and Herd ServicesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pack and Herd ServicesTests/Pods-Pack and Herd ServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		704AB6E11F855C6400BF48AA /* LoginTextEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextEntry.swift; sourceTree = "<group>"; };
+		70789BC41F83E21C00EAEC2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70BA8AA71F7DBD9000683E63 /* Pack and Herd Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pack and Herd Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BA8AAA1F7DBD9000683E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +67,12 @@
 		70BA8AD41F7DCBF300683E63 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		70BA8AD51F7DCBF300683E63 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		70BA8AD61F7DCBF300683E63 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../../Downloads/App/Roboto Font/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		70C546711F856BD6000B278D /* Pack and Herd Services.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pack and Herd Services.entitlements"; sourceTree = "<group>"; };
+		733F580EAC57E6ECA85EAEA3 /* Pods-Pack and Herd Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pack and Herd Services.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pack and Herd Services/Pods-Pack and Herd Services.release.xcconfig"; sourceTree = "<group>"; };
+		83F3C7DFC095CB9FB7E26D00 /* Pods_Pack_and_Herd_ServicesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pack_and_Herd_ServicesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB5847273B316D5E250D083 /* Pods-Pack and Herd Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pack and Herd Services.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pack and Herd Services/Pods-Pack and Herd Services.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7557257BB32DA1B11C158D /* Pods_Pack_and_Herd_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pack_and_Herd_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC94DD921D61CD7D7278991A /* Pods-Pack and Herd ServicesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pack and Herd ServicesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pack and Herd ServicesTests/Pods-Pack and Herd ServicesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D0DB42EA3B89762D60062B /* Pods_Pack_and_Herd_Services.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B17F4AC055CA2B722BC6AC6 /* Pods_Pack_and_Herd_ServicesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E8310D2966817E64BFFE77B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7557257BB32DA1B11C158D /* Pods_Pack_and_Herd_Services.framework */,
+				83F3C7DFC095CB9FB7E26D00 /* Pods_Pack_and_Herd_ServicesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		704AB6DE1F855C1300BF48AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		704AB6DF1F855C1900BF48AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		704AB6E01F855C2100BF48AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				704AB6E11F855C6400BF48AA /* LoginTextEntry.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		70BA8A9E1F7DBD9000683E63 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +134,8 @@
 				70BA8AA91F7DBD9000683E63 /* Pack and Herd Services */,
 				70BA8ABE1F7DBD9000683E63 /* Pack and Herd ServicesTests */,
 				70BA8AA81F7DBD9000683E63 /* Products */,
+				E193777A97F7AEB5C0F0981D /* Pods */,
+				2E8310D2966817E64BFFE77B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,12 +151,16 @@
 		70BA8AA91F7DBD9000683E63 /* Pack and Herd Services */ = {
 			isa = PBXGroup;
 			children = (
+				70C546711F856BD6000B278D /* Pack and Herd Services.entitlements */,
+				704AB6E01F855C2100BF48AA /* View */,
+				704AB6DF1F855C1900BF48AA /* Controller */,
+				704AB6DE1F855C1300BF48AA /* Model */,
 				70BA8AAA1F7DBD9000683E63 /* AppDelegate.swift */,
-				70BA8AAC1F7DBD9000683E63 /* LoginViewController.swift */,
 				70BA8AAE1F7DBD9000683E63 /* Main.storyboard */,
 				70BA8AB11F7DBD9000683E63 /* Assets.xcassets */,
 				70BA8AB31F7DBD9000683E63 /* LaunchScreen.storyboard */,
 				70BA8AB61F7DBD9000683E63 /* Info.plist */,
+				70789BC41F83E21C00EAEC2C /* GoogleService-Info.plist */,
 			);
 			path = "Pack and Herd Services";
 			sourceTree = "<group>";
@@ -141,6 +194,17 @@
 			path = "Pack and Herd Services";
 			sourceTree = "<group>";
 		};
+		E193777A97F7AEB5C0F0981D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CB5847273B316D5E250D083 /* Pods-Pack and Herd Services.debug.xcconfig */,
+				733F580EAC57E6ECA85EAEA3 /* Pods-Pack and Herd Services.release.xcconfig */,
+				5A16D221040B7574E69BC8D8 /* Pods-Pack and Herd ServicesTests.debug.xcconfig */,
+				CC94DD921D61CD7D7278991A /* Pods-Pack and Herd ServicesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70BA8AC41F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd Services" */;
 			buildPhases = (
+				3888FDD911B98AD55CC7105D /* [CP] Check Pods Manifest.lock */,
 				70BA8AA31F7DBD9000683E63 /* Sources */,
 				70BA8AA41F7DBD9000683E63 /* Frameworks */,
 				70BA8AA51F7DBD9000683E63 /* Resources */,
+				2DC65EFF859CC424EA331791 /* [CP] Embed Pods Frameworks */,
+				F1BD87AC5384339334CC0B94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70BA8AC71F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd ServicesTests" */;
 			buildPhases = (
+				B1EBD9E43E0495A8B2260DD7 /* [CP] Check Pods Manifest.lock */,
 				70BA8AB71F7DBD9000683E63 /* Sources */,
 				70BA8AB81F7DBD9000683E63 /* Frameworks */,
 				70BA8AB91F7DBD9000683E63 /* Resources */,
+				B7C8268D9DE57E41F93B13F0 /* [CP] Embed Pods Frameworks */,
+				580C2DC9114BE503976BF922 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +263,17 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Q24XRD67E3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					70BA8ABA1F7DBD9000683E63 = {
 						CreatedOnToolsVersion = 8.0;
@@ -235,6 +316,7 @@
 				70BA8ADF1F7DCBF300683E63 /* Roboto-MediumItalic.ttf in Resources */,
 				70BA8AD81F7DCBF300683E63 /* Roboto-BlackItalic.ttf in Resources */,
 				70BA8AB01F7DBD9000683E63 /* Main.storyboard in Resources */,
+				70789BC51F83E21C00EAEC2C /* GoogleService-Info.plist in Resources */,
 				70BA8ADB1F7DCBF300683E63 /* Roboto-Italic.ttf in Resources */,
 				70BA8ADA1F7DCBF300683E63 /* Roboto-BoldItalic.ttf in Resources */,
 				70BA8ADE1F7DCBF300683E63 /* Roboto-Medium.ttf in Resources */,
@@ -253,6 +335,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DC65EFF859CC424EA331791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pack and Herd Services/Pods-Pack and Herd Services-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pack and Herd Services/Pods-Pack and Herd Services-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3888FDD911B98AD55CC7105D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pack and Herd Services-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		580C2DC9114BE503976BF922 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pack and Herd ServicesTests/Pods-Pack and Herd ServicesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1EBD9E43E0495A8B2260DD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pack and Herd ServicesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C8268D9DE57E41F93B13F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pack and Herd ServicesTests/Pods-Pack and Herd ServicesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BD87AC5384339334CC0B94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pack and Herd Services/Pods-Pack and Herd Services-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70BA8AA31F7DBD9000683E63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +456,7 @@
 			files = (
 				70BA8AAD1F7DBD9000683E63 /* LoginViewController.swift in Sources */,
 				70BA8AAB1F7DBD9000683E63 /* AppDelegate.swift in Sources */,
+				704AB6E21F855C6400BF48AA /* LoginTextEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +593,14 @@
 		};
 		70BA8AC51F7DBD9000683E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB5847273B316D5E250D083 /* Pods-Pack and Herd Services.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pack and Herd Services/Pack and Herd Services.entitlements";
 				DEVELOPMENT_TEAM = Q24XRD67E3;
 				INFOPLIST_FILE = "Pack and Herd Services/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.Pack-and-Herd-Services";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.pack-and-herd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -409,12 +608,14 @@
 		};
 		70BA8AC61F7DBD9000683E63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733F580EAC57E6ECA85EAEA3 /* Pods-Pack and Herd Services.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pack and Herd Services/Pack and Herd Services.entitlements";
 				DEVELOPMENT_TEAM = Q24XRD67E3;
 				INFOPLIST_FILE = "Pack and Herd Services/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.Pack-and-Herd-Services";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watts-ongames.pack-and-herd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,6 +623,7 @@
 		};
 		70BA8AC81F7DBD9000683E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A16D221040B7574E69BC8D8 /* Pods-Pack and Herd ServicesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -437,6 +639,7 @@
 		};
 		70BA8AC91F7DBD9000683E63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC94DD921D61CD7D7278991A /* Pods-Pack and Herd ServicesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +672,7 @@
 				70BA8AC61F7DBD9000683E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70BA8AC71F7DBD9000683E63 /* Build configuration list for PBXNativeTarget "Pack and Herd ServicesTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +681,7 @@
 				70BA8AC91F7DBD9000683E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
